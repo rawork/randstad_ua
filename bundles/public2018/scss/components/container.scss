@@ -1,0 +1,28 @@
+.container {
+  padding: 0 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}

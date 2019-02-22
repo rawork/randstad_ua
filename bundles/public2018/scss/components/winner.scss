@@ -1,0 +1,277 @@
+.winner-main {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #006ead;
+  margin-bottom: 25px;
+}
+
+.winner-main.extra {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.winner-extra {
+  border-top: 1px solid #006ead;
+  padding-top: 25px;
+}
+
+.winner-main .title {
+  color: #006ead;
+  text-align: center;
+  font-size: 20px;
+}
+
+.winner-main .title span {
+  display: block;
+}
+
+.winner-main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.winner-main ul li {
+  padding: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.winner-main ul li.certificate {
+  position: relative;
+  text-align: right;
+}
+
+.winner-main ul li.certificate img {
+  max-width: 70% !important;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.winner-main ul li.certificate_extra img {
+  max-width: 100% !important;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.winner-main img.ramka {
+  border: 1px solid #f1f1f1;
+}
+
+.winner-main ul li.certificate .goblet-xs {
+  position: absolute;
+  max-width: 45% !important;
+  left: -10%;
+  top: -10%;
+}
+
+.winner-main ul li.certificate .goblet-xs-extra {
+  position: absolute;
+  max-width: 45% !important;
+  left: -10%;
+  top: 20%;
+}
+
+.winner-main .goblet {
+  float: left;
+  max-width: 20% !important;
+}
+
+.winner-main .goblet-xs {
+  display: block;
+}
+
+.winner-main .goblet {
+  display: none;
+}
+
+.winner-other {
+  margin-top: 20px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.winner-other .winner>div {
+  text-align: center;
+  width: 203px;
+  margin: 0 auto;
+}
+
+.winner-other .title {
+  color: #006ead;
+  text-align: center;
+  font-size: 16px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.winner-other .title strong {
+  display: block;
+}
+
+.winner-other .winner>img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 203px;
+  border: 1px solid #f1f1f1;
+}
+
+.slick-prev:before, .slick-next:before{
+  content: "";
+  font-size: 0;
+}
+
+.winner-prev {
+  display: block;
+  height: 0;
+  border: 0;
+  border-right: 12px solid #bcbdc0;
+  border-bottom: 16px solid transparent;
+  border-top: 16px solid transparent;
+  left: -15px;
+}
+
+
+.winner-next {
+  display: block;
+  height: 0;
+  border: 0;
+  border-left: 12px solid #bcbdc0;
+  border-bottom: 16px solid transparent;
+  border-top: 16px solid transparent;
+  right: -15px;
+}
+
+.winner-other img.prize {
+  display: block;
+  float: left;
+  max-width: 30% !important;
+  width: 49px;
+  margin-right: 17px;
+}
+
+.winner-other img.certificate {
+  display: block;
+  float: right;
+  max-width: 70% !important;
+  width: 132px;
+  border: 1px solid #e0e0e0;
+}
+
+@media (min-width: 400px) {
+  .winner-main .goblet img {
+    max-width: 110px !important;
+  }
+
+  .winner-main .goblet-extra img {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 600px) {
+  .winner-main .title {
+    height: 50px;
+  }
+
+  .winner-main .title span {
+    display: block;
+  }
+
+  .winner-main ul li {
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  .winner-main ul li.certificate {
+    width: 50%;
+  }
+
+  .winner-main .goblet-xs {
+    display: none;
+  }
+
+  .winner-main .goblet {
+    display: block;
+  }
+
+  .winner-main .goblet img {
+    max-width: 120px !important;
+  }
+
+  .winner-main .goblet-extra img {
+    margin-top: 45px;
+  }
+
+  .winner-main .winner {
+    float: right;
+    width: 75%;
+  }
+
+  .winner-main .winner.winner-hall {
+    float: none;
+    width: 100%;
+  }
+
+  .winner-main ul li:first-child {
+    padding-left: 0;
+  }
+
+  .winner-main ul li:last-child {
+    padding-right: 0;
+  }
+
+  .winner-main ul li.certificate img {
+    max-width: 100% !important;
+    display: block;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .winner-main .goblet img {
+    max-width: 125px !important;
+  }
+
+  .winner-main .goblet-extra img {
+    margin-top: 50px;
+  }
+
+  .winner-main .winner {
+    width: 75%;
+  }
+
+  .winner-main .winner.winner-hall {
+    float: none;
+    width: 100%;
+  }
+
+  .winner-main .title {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .winner-main {
+    padding-bottom: 45px;
+  }
+
+  .winner-main .goblet img {
+    max-width: 175px !important;
+
+  }
+
+  .winner-main .goblet-extra img {
+    margin-top: 70px;
+  }
+
+  .winner-main .title {
+    margin-top: 18px;
+    font-size: 18px;
+  }
+
+  .winner-other .title {
+    height: 150px;
+  }
+}

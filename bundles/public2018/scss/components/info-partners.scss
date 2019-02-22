@@ -1,0 +1,48 @@
+ul.info-partners {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.info-partners li {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+}
+
+ul.info-partners li img {
+  max-width: 100% !important;
+  vertical-align: middle;
+}
+
+ul.info-partners li {
+  display: block;
+  margin: 0;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+  height: 120px;
+  line-height: 100px;
+  float: left;
+}
+
+@media (min-width: 600px) {
+  ul.info-partners li {
+    width: 33.3333%;
+  }
+}
+
+@media (min-width: 768px) {
+  ul.info-partners li {
+    width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  ul.info-partners li {
+    width: 20%;
+  }
+}

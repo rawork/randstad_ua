@@ -1,0 +1,91 @@
+.award-announce {
+  padding: 10px 0;
+  min-height: 80px;
+
+  .tiser {
+    background-image: url('../img/man_heart.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 41px;
+    padding-left: 60px;
+    padding-top: 0;
+    font-size: 13px;
+    line-height: 16px;
+
+    span {
+      color: #006ead;
+    }
+
+    div {
+      color: #012448;
+    }
+  }
+
+  .button-container {
+    padding-top: 10px;
+
+    a.info-partners-teaser {
+      display: block;
+      background-color: #fff;
+      border: 1px solid #006ead;
+      border-radius: 5px;
+      color: #006ead;
+      padding: 20px 20px;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 20px;
+      margin-top: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 280px;
+      transition: all .2s ease-out;
+      text-transform: uppercase;
+
+      &:hover, &:active, &:focus {
+        outline: none;
+        color: #fff;
+        background-color: #006ead;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .award-announce {
+    .tiser {
+      background-size: 70px;
+      padding-left: 85px;
+      min-height: 80px;
+    }
+
+    .button-container {
+      background-image: url('../img/arrow_blue.png');
+      background-position: center left;
+      background-repeat: no-repeat;
+      background-size: 55px;
+      padding-left: 65px;
+      min-height: 55px;
+
+      a.info-partners-teaser {
+        display: block;
+        margin-top: 3px;
+        margin-bottom: 0;
+        padding: 7px 10px;
+        font-size: 15px;
+        width: 220px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .award-announce {
+    .tiser {
+      padding-top: 5px;
+      line-height: 18px;
+      font-size: 14px;
+
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.mainmenu {
+  height: 27px;
+  font-size: 16px;
+  line-height: 21px;
+
+  a {
+    color: #fff;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .mainmenu {
+    height: 38px;
+
+    .nav {
+      display: block;
+
+      & > li > a {
+        padding: 8px 19px;
+
+        &:hover, &:focus {
+          background-color: #f54d2e;
+          border-radius: 0;
+        }
+      }
+
+      .open > a, .open > a:hover, .open > a:focus {
+        background-color: #f54d2e;
+      }
+    }
+
+    .nav-pills {
+      height: 38px !important;
+    }
+
+    .dropdown-menu {
+      border-radius: 0;
+      margin-top: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+
+      border: 0;
+      min-width: 114px;
+      box-shadow: none;
+
+      .divider {
+        height: 0;
+        margin: 4px 0;
+        overflow: hidden;
+        background-color: transparent;
+        border-bottom: 1px dotted #006ead;
+      }
+
+      & > li > a {
+        color: #006ead;
+
+        &:hover, &:focus {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

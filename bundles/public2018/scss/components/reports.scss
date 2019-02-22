@@ -1,0 +1,40 @@
+ul.reports {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    float: left;
+    width: 100%;
+  }
+
+  & > li > a {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    padding: 10px 20px 15px;
+    color: #006ead;
+    border: 1px solid #006ead;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(127, 127, 127, .5);
+    margin-bottom: 25px;
+    transition: all .2s ease-out;
+
+    &:hover, &:focus {
+      text-decoration: none;
+      color: #fff;
+      background-color: #006ead;
+    }
+
+    & > div {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  ul.reports li {
+    width: 50%;
+    padding: 0 10px;
+  }
+}

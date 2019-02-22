@@ -1,0 +1,62 @@
+.modal-dialog {
+  &_video {
+    margin: 0;
+
+    .modal-body {
+      padding: 0;
+    }
+
+    .close {
+      position: absolute;
+      margin-right: 0;
+      margin-top: 0;
+      z-index: 1100;
+      color: #fff;
+      font-weight: 300;
+      font-size: 40px;
+      right: 10px;
+      top: 0;
+      opacity: 0.8;
+    }
+  }
+}
+
+.modal-content {
+  box-shadow: none;
+
+  iframe {
+    border: 0;
+    margin-bottom: -5px;
+    height: 340px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal-dialog {
+    &_video {
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  .modal-content {
+    iframe {
+      height: 340px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .modal-dialog {
+    &_video {
+      width: auto;
+    }
+  }
+
+  .modal-content {
+    iframe {
+      height: 630px;
+    }
+  }
+}
+

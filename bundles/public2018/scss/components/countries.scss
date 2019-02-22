@@ -1,0 +1,132 @@
+.countries {
+  margin-top: 20px;
+
+  ul.list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    font-size: 12px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      float: left;
+      width: 50%;
+    }
+
+    li {
+      padding: 0 10px 20px 0;
+    }
+
+    img {
+      max-width: 24px !important;
+      display: inline-block;
+      margin-right: 3px;
+    }
+  }
+
+  .map {
+    position: relative;
+    margin-bottom: 130px;
+
+    .emblem {
+      background-color: #3676bb;
+      width: 134px;
+      height: 134px;
+      border-radius: 67px;
+      color: #fff;
+      text-align: center;
+      padding-top: 8px;
+      font-size: 20px;
+      line-height: 22px;
+      position: absolute;
+      bottom: -110px;
+      left: 55%;
+      margin-left: -67px;
+
+      span {
+        display: block;
+        font-size: 60px;
+        line-height: 60px;
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  .countries {
+    .map {
+      .emblem {
+        bottom: -100px;
+      }
+    }
+    ul.list {
+      li {
+        padding: 0 20px 20px 0;
+      }
+
+      img {
+        max-width: 32px !important;
+        margin-right: 12px;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .countries {
+    .map {
+      margin-bottom: 120px;
+
+      img {
+        width: 100%;
+      }
+
+      .emblem {
+        bottom: -90px;
+      }
+    }
+
+  }
+}
+
+@media (min-width: 768px) {
+  .countries {
+    .map {
+      .emblem {
+        bottom: -90px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .countries {
+    margin: 0 0 20px 0;
+
+    .map {
+      margin-bottom: 90px;
+
+      .emblem {
+        bottom: -70px;
+      }
+    }
+
+
+    ul.list {
+      ul {
+        width: 33.3333%;
+
+        li {
+          padding-right: 16px;
+        }
+
+        img {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}

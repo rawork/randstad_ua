@@ -1,0 +1,66 @@
+#mobile-menu {
+  position: fixed;
+  width: 260px;
+  right: -260px;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  padding: 20px;
+}
+
+ul.mobile-partners {
+  list-style: none;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+ul.mobile-mainmenu {
+  list-style: none;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+ul.mobile-mainmenu a {
+  color: #006ead;
+}
+
+ul.mobile-mainmenu li ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+#mobile-menu .btn-contact {
+  display: inline-block;
+  border: 1px solid #006ead;
+  width: 33px;
+  height: 33px;
+  background-color: #fff;
+  background-image: url('../img/icon_envelope.svg');
+  background-size: 21px 21px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+#mobile-menu .btn-register {
+  display: inline-block;
+  border: 1px solid #006ead;
+  width: 33px;
+  height: 33px;
+  background-color: #fff;
+  background-image: url('../img/icon_register.svg');
+  background-size: 21px 21px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}

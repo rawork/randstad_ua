@@ -1,0 +1,16 @@
+{
+    "require": {
+        "twig/twig": "1.14.*",
+	    "doctrine/orm": "2.4.*",
+	    "symfony/yaml": "2.2.*",
+	    "symfony/config": "2.2.*",
+	    "symfony/http-foundation": "2.2.*",
+	    "masterexploder/phpthumb": "dev-master",
+        "phpoffice/phpexcel": "dev-master",
+        "phpmailer/phpmailer": "dev-master",
+        "smarty/smarty": "v3.1.31"
+    },
+    "autoload": {
+        "psr-4": {"Fuga\\": "src/Fuga/"}
+    }
+}
