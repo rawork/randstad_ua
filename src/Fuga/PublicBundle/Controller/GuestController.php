@@ -6,7 +6,7 @@ use Fuga\CommonBundle\Controller\PublicController;
 
 use PHPExcel;
 use PHPExcel_Writer_Excel2007;
-use PHPMailer;
+use PHPMailer\PHPMailer\PHPMailer;
 
 class GuestController extends PublicController {
 	
@@ -23,10 +23,10 @@ class GuestController extends PublicController {
 			$mail->SMTPDebug = 1;
 			$mail->CharSet = 'UTF-8';
 
-			$mail->From = 'award@ancor.ru';
-			$mail->FromName = 'Randstad Award';
+			$mail->From = 'award@ancor.ua';
+			$mail->FromName = 'Randstad Award Ukraine';
 
-			$mail->addEmbeddedImage(PRJ_DIR.'/bundles/public/img/logo.jpg', 'logo');
+			$mail->addEmbeddedImage(PRJ_DIR.'/bundles/public2018/img/logo_md3.png', 'logo');
 			$mail->isHTML(true);                                  // Set email format to HTML
 
 			$mail->Subject = 'Randstad Award Registration';
@@ -73,7 +73,7 @@ class GuestController extends PublicController {
 
 			return $this->render('guest/message.tpl');
 		} else {
-			$this->get('container')->setVar('h1', 'Регистрация на церемонию вручения премии Randstad Award<small>Registration at the Randstad Award ceremony</small>');
+			$this->get('container')->setVar('h1', 'Реєстрація на церемонію вручення премії Randstad<small>Registration at the Randstad Award ceremony</small>');
 
 			return $this->render('guest/index.tpl');
 		}

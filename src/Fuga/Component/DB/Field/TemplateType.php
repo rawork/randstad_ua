@@ -151,20 +151,25 @@ class TemplateType extends Type {
 		return $this->getPath($this->dbValue);
 	}
 	
-	public function free() {
-		$sql = "SELECT id, file FROM template_version WHERE table_name= :table AND field_name= :field AND entity_id= :id ";
-		$stmt = $this->get('connection')->prepare($sql);
-		$stmt->bindValue('table', $this->getParam('table'));
-		$stmt->bindValue('field', $this->getName());
-		$stmt->bindValue('id', $this->dbId);
-		$stmt->execute();
-		$versions = $stmt->fetchAll();
-		$ids = array();
-		foreach ($versions as $version) {
-			$ids[] = $version['id'];
-			@unlink($this->getBackupRealPath($version['file']));
-		}
-		$this->get('connection')->exec('DELETE FROM template_version WHERE id IN('.implode(',', $ids).')');
+	public function free()
+    {
+        $sql = "SELECT id, file FROM template_version WHERE table_name= :table AND field_name= :field AND entity_id= :id ";
+        $stmt = $this->get('connection')->prepare($sql);
+        $stmt->bindValue('table', $this->getParam('table'));
+        $stmt->bindValue('field', $this->getName());
+        $stmt->bindValue('id', $this->dbId);
+        $stmt->execute();
+        $versions = $stmt->fetchAll();
+        $ids = array();
+        foreach ($versions as $version) {
+            $ids[] = $version['id'];
+            @unlink($this->getBackupRealPath($version['file']));
+        }
+
+        if ($ids) {
+            $this->get('connection')->exec('DELETE FROM template_version WHERE id IN(' . implode(',', $ids) . ')');
+        }
+
 		@unlink($this->getRealPath($this->dbValue));
 	}
 
