@@ -1,5 +1,5 @@
 <ul class="buttons pull-right">
-    <li><a href="mailto:award@ancor.ua">Зв'язатися з нами</a></li>
+    <li><a href="http://award.ancor.ua">Повернутися на головну сторінку</a></li>
     <li class="menu"><span class="menu-icon"></span></li>
 </ul>
 <ul class="partners pull-right">
