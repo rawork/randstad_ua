@@ -6,7 +6,7 @@ use Fuga\CommonBundle\Controller\PublicController;
 
 use PHPExcel;
 use PHPExcel_Writer_Excel2007;
-use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer;
 
 class GuestController extends PublicController {
 	
