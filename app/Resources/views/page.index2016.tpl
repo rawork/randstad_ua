@@ -36,8 +36,8 @@
                     На церемонію вручення премії Randstad запрошуються представники топ-менеджменту і керівники HR-служб і підрозділів великих компаній-роботодавців України, а також представники засобів масової інформації. Якщо Ви реєструєтеся на церемонію, не отримавши офіційного запрошення від АНКОРу в Україні, та не маєте відношення до жодної з наведених вище груп гостей, АНКОР має право відхилити Вашу реєстрацію, про що обов’язково повідомить Вам листом за вказаною електронною адресою.
                     <br><a href="#attention-eng">English</a></div>
 
-                <div class="attention" id="attention-eng">In case of positive registration you'll get confirmation from the ANCOR representative via e-mail or by phone.<br>
-                    We are happy to meet at the Randstad Award Ceremony top-management and HR management of the companies-employers in Ukraine as well as mass media professionals. Whether you register for the ceremony without the invitation from ANCOR holding and you're supposed not to present any of the above-mentioned guests, ANCOR may refuse your registration, sending notification to the pointed e-mail.
+                <div class="attention" id="attention-eng">Thank you for applying! In case of registration confirmation you'll get a ticket from ANCOR representative by e-mail or phone.<br>
+                    The Randstad Employer Brand Research Ceremony will gather top-management and HR management of Ukrainian companies  as well as business media professionals. Whether you register for the ceremony without the invitation from ANCOR holding and you do not represent any of the above-mentioned guests, ANCOR may decline your application, by sending notification to the e-mail you provided.
                     <br><a href="#attention-rus">Український</a>
                 </div>
             </div>
