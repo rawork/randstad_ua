@@ -2,7 +2,7 @@
     <div class="col-xs-12 col-md-8 col-lg-6 col-xs-offset-0 col-md-offset-2 col-lg-offset-3">
         <form class="form-horizontal register" method="post">
             <div class="control-group">
-                <label class="control-label" for="inputCompany">Компания <small>/ Company</small></label>
+                <label class="control-label" for="inputCompany">Компанiя <small>/ Company</small></label>
                 <div class="controls">
                     <input type="text" name="company" id="inputCompany" class="form-control">
                 </div>
