@@ -19,7 +19,7 @@
     <div class="header">
         <div class="container">
                 <div class="logo pull-left">
-                    <a href="/">
+                    <a href="https://award.ancor.ua">
                         <img class="visible-xs-block" src="{$theme_ref}/public2018/img/logo_xs3.png" />
                         <img class="visible-sm-block" src="{$theme_ref}/public2018/img/logo_sm3.png" />
                         <img class="visible-md-block visible-lg-block" src="{$theme_ref}/public2018/img/logo_md3.png" />
